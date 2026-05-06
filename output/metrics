@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-06 06:34:23",
+    "orders_completed": 10,
+    "throughput_orders_per_minute": 10000.0
+  },
+  "delivery_time": {
+    "overall": {
+      "count": 10,
+      "mean_minutes": 1.4,
+      "std_dev_minutes": 9.96
+    },
+    "high": {
+      "count": 4,
+      "mean_minutes": -4.5,
+      "std_dev_minutes": 9.11
+    },
+    "normal": {
+      "count": 3,
+      "mean_minutes": 9.0,
+      "std_dev_minutes": 9.64
+    },
+    "low": {
+      "count": 3,
+      "mean_minutes": 1.67,
+      "std_dev_minutes": 8.5
+    }
+  },
+  "sla_compliance": {
+    "total_orders": 10,
+    "violations": 0,
+    "compliance_rate_pct": 100.0,
+    "violation_rate_pct": 0.0,
+    "avg_margin_minutes": 88.0,
+    "by_priority": {
+      "high": {
+        "total": 4,
+        "violations": 0,
+        "compliance_rate_pct": 100.0
+      },
+      "normal": {
+        "total": 3,
+        "violations": 0,
+        "compliance_rate_pct": 100.0
+      },
+      "low": {
+        "total": 3,
+        "violations": 0,
+        "compliance_rate_pct": 100.0
+      }
+    }
+  },
+  "workload_fairness": {
+    "variance": 0.0,
+    "std_dev": 0.0,
+    "min_assignments": 2,
+    "max_assignments": 2,
+    "assignment_range": 0,
+    "mean_assignments": 2.0,
+    "per_agent": {
+      "AG1": 2,
+      "AG4": 2,
+      "AG2": 2,
+      "AG5": 2,
+      "AG3": 2
+    }
+  }
+}

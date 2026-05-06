@@ -1,0 +1,40 @@
+# Smart Delivery Dispatch System - Configuration File
+
+[scoring_weights]
+# Weight for minimizing delivery time (travel + prep)
+delivery_time = 0.35
+
+# Weight for SLA compliance (risk of missing deadline)
+sla_risk = 0.30
+
+# Weight for workload fairness across agents
+workload_fairness = 0.15
+
+# Weight for order priority boost (high > normal > low)
+priority_boost = 0.12
+
+# Weight for agent rating
+agent_rating = 0.08
+
+[performance]
+# Maximum allowed assignment decision time in milliseconds
+max_decision_latency_ms = 500
+
+# Minimum orders processed per minute for throughput target
+min_throughput_per_minute = 100
+
+# Maximum travel time to consider an agent as candidate (minutes)
+max_candidate_travel_time = 60
+
+[system]
+# Maximum active orders per agent
+max_active_orders = 2
+
+# Log level: DEBUG, INFO, WARNING, ERROR
+log_level = INFO
+
+# Output directory for metrics and reports
+output_dir = output
+
+# Data directory for CSV files
+data_dir = data

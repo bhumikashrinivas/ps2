@@ -1,0 +1,6 @@
+agent_id,current_location,rating,availability
+AG1,A,4.8,true
+AG2,B,4.5,true
+AG3,C,4.2,true
+AG4,D,4.9,true
+AG5,E,4.6,true
